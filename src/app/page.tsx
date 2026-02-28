@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { Pillars } from "@/components/Pillars";
 import { Ritual } from "@/components/Ritual";
+import { Flavors } from "@/components/Flavors";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Pillars />
         <Ritual />
+        <Flavors />
       </main>
       <Footer />
     </div>
